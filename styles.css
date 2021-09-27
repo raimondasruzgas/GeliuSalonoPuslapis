@@ -107,6 +107,8 @@ body {
 }
 
 .kategorijos {
+    display: flex;
+    flex-direction: row;
     position: relative;
     width: 50%;
     max-width: 300px;
@@ -135,4 +137,12 @@ body {
 
 .antvirsaus:hover .overlay {
     opacity: 1;
+}
+
+.kontaktai div {
+    display: flex;
+    -ms-flex-align: center;
+}
+.magiskos {
+    width: 300px;
 }
